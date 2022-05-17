@@ -7,7 +7,6 @@ class Item < ApplicationRecord
     validates :opinion
     validates :image
     validates :price_without_tax
-    validates :is_active
     validates :genre_id
   end
 end
